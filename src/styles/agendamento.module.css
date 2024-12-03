@@ -1,0 +1,85 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.topLeft {
+    position: absolute;
+    top: 10px;
+    left: 1px;
+}
+
+.logoTopLeft {
+    width: 80px; 
+    height: auto;
+}
+
+.app {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.dropdown {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btnAzul {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btnLaranja {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f39c12;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.data, .horario {
+    margin-bottom: 20px; 
+}
+
+.mensagem {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.mensagemErro {
+    color: red;
+}
+
+.mensagemSucesso {
+    color: green;
+}
